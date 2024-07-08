@@ -1,0 +1,351 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ElifUygunEmlak
+</name>
+</assembly>
+<members>
+<member name="T:ElifUygunEmlak.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:ElifUygunEmlak.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:ElifUygunEmlak.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:ElifUygunEmlak.ElifEmlakDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ElifUygunEmlak.ElifEmlakDataSet.EvlerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ElifUygunEmlak.ElifEmlakDataSet.EvlerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ElifUygunEmlak.ElifEmlakDataSet.EvlerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ElifUygunEmlak.ElifEmlakDataSetTableAdapters.EvlerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ElifUygunEmlak.ElifEmlakDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ElifUygunEmlak.ElifEmlakDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(ElifUygunEmlak.ElifEmlakDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ElifUygunEmlak.ElifEmlakDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(ElifUygunEmlak.ElifEmlakDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ElifUygunEmlak.ElifEmlakDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(ElifUygunEmlak.ElifEmlakDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ElifUygunEmlak.ElifEmlakDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ElifUygunEmlak.ElifEmlakDataSetTableAdapters.TableAdapterManager.UpdateAll(ElifUygunEmlak.ElifEmlakDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ElifUygunEmlak.ElifEmlakDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ElifUygunEmlak.ElifEmlakDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:ElifUygunEmlak.ElifEmlakDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ElifUygunEmlak.ElifEmlakDataSet1.UsersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ElifUygunEmlak.ElifEmlakDataSet1.UsersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ElifUygunEmlak.ElifEmlakDataSet1.UsersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ElifUygunEmlak.ElifEmlakDataSet1TableAdapters.UsersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ElifUygunEmlak.ElifEmlakDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ElifUygunEmlak.ElifEmlakDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(ElifUygunEmlak.ElifEmlakDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ElifUygunEmlak.ElifEmlakDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(ElifUygunEmlak.ElifEmlakDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ElifUygunEmlak.ElifEmlakDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(ElifUygunEmlak.ElifEmlakDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ElifUygunEmlak.ElifEmlakDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ElifUygunEmlak.ElifEmlakDataSet1TableAdapters.TableAdapterManager.UpdateAll(ElifUygunEmlak.ElifEmlakDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ElifUygunEmlak.ElifEmlakDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ElifUygunEmlak.ElifEmlakDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:ElifUygunEmlak.ElifEmlakDataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ElifUygunEmlak.ElifEmlakDataSet2.KullanicilarDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ElifUygunEmlak.ElifEmlakDataSet2.KullanicilarRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ElifUygunEmlak.ElifEmlakDataSet2.KullanicilarRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ElifUygunEmlak.ElifEmlakDataSet2TableAdapters.KullanicilarTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ElifUygunEmlak.ElifEmlakDataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ElifUygunEmlak.ElifEmlakDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(ElifUygunEmlak.ElifEmlakDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ElifUygunEmlak.ElifEmlakDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(ElifUygunEmlak.ElifEmlakDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ElifUygunEmlak.ElifEmlakDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(ElifUygunEmlak.ElifEmlakDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ElifUygunEmlak.ElifEmlakDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ElifUygunEmlak.ElifEmlakDataSet2TableAdapters.TableAdapterManager.UpdateAll(ElifUygunEmlak.ElifEmlakDataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ElifUygunEmlak.ElifEmlakDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ElifUygunEmlak.ElifEmlakDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:ElifUygunEmlak.ElifEmlakDataSet3">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ElifUygunEmlak.ElifEmlakDataSet3.KullanicilarDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ElifUygunEmlak.ElifEmlakDataSet3.KullanicilarRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ElifUygunEmlak.ElifEmlakDataSet3.KullanicilarRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ElifUygunEmlak.ElifEmlakDataSet3TableAdapters.KullanicilarTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ElifUygunEmlak.ElifEmlakDataSet3TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ElifUygunEmlak.ElifEmlakDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(ElifUygunEmlak.ElifEmlakDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ElifUygunEmlak.ElifEmlakDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(ElifUygunEmlak.ElifEmlakDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ElifUygunEmlak.ElifEmlakDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(ElifUygunEmlak.ElifEmlakDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ElifUygunEmlak.ElifEmlakDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ElifUygunEmlak.ElifEmlakDataSet3TableAdapters.TableAdapterManager.UpdateAll(ElifUygunEmlak.ElifEmlakDataSet3)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ElifUygunEmlak.ElifEmlakDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ElifUygunEmlak.ElifEmlakDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:ElifUygunEmlak.ElifEmlakDataSet4">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ElifUygunEmlak.ElifEmlakDataSet4.EvlerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ElifUygunEmlak.ElifEmlakDataSet4.EvlerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ElifUygunEmlak.ElifEmlakDataSet4.EvlerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ElifUygunEmlak.ElifEmlakDataSet4TableAdapters.EvlerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ElifUygunEmlak.ElifEmlakDataSet4TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ElifUygunEmlak.ElifEmlakDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(ElifUygunEmlak.ElifEmlakDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ElifUygunEmlak.ElifEmlakDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(ElifUygunEmlak.ElifEmlakDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ElifUygunEmlak.ElifEmlakDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(ElifUygunEmlak.ElifEmlakDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ElifUygunEmlak.ElifEmlakDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ElifUygunEmlak.ElifEmlakDataSet4TableAdapters.TableAdapterManager.UpdateAll(ElifUygunEmlak.ElifEmlakDataSet4)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ElifUygunEmlak.ElifEmlakDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ElifUygunEmlak.ElifEmlakDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
